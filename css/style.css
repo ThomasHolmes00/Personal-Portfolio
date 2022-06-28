@@ -1,0 +1,220 @@
+/* CSS HEX
+/* Page Styling */
+body {
+    background-color: beige;
+    font-family: 'Times New Roman', Serif;
+
+}
+
+main {
+    background-color: beige;
+    border: 10px solid #09090a;
+    margin: 65px;
+}
+
+/* Nav Bar */
+.container {
+    width: 100%;
+    background-color: #373750;
+}
+
+.navbar {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.header {
+    font-size: 45px;
+    color: #080808;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-top: 100px;
+}
+
+.navbutton {
+    padding: 20px;
+    font-size: 30px;
+    color: #0f0f0f;
+    text-decoration: solid;
+    justify-content: right;
+}
+
+@media screen and (max-width:730px) {
+    nav ul li {
+        display: inline;
+    }
+}
+/* End Nav Bar */
+
+/* Bio */
+#about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about h1 {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+}
+/* End Bio */
+
+/* Profile Picture Styling */
+#Thomas {
+    display: block;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    width: 500px;
+    float: left;
+}
+#Thomas2 {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 180px;
+    width: 100%;
+    width: 500px;
+    float: right;
+}
+
+.aboutbox div {
+    font-size: 25px;
+}
+/* Viewports for the about box */
+@media screen and (max-width:1000px) {
+    #Thomas {
+        float: none;
+        width: 100%;
+        width: 500px;
+        margin: auto;
+    }
+    #about {
+        flex-direction: row;
+    }
+    .aboutbox div {
+        display: block;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #Thomas {
+        width: 100%;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #Thomas {
+        width: 100%;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    #Thomas {
+        width: 100%;
+        width: 150px;
+    }
+}
+
+/* Work */
+#work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+}
+
+.project {
+    flex: 1 1 1500px;
+}
+
+.afterprojects {
+    flex: 300px;
+}
+
+.project {
+    border-style: solid;
+    border-color: #76767a;
+    background-color: beige;
+    border-width: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.project header {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+main div a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+main div .horiseonpng {
+    display: block;
+    width: 50%;
+    height: 300px;
+    margin: auto;
+}
+
+main div .img {
+    width: 100%;
+    height: 300px;
+}
+
+@media screen and (max-width: 900px) {
+    main div .horiseonpng {
+        display: block;
+        width: 100%;
+        height: 300px;
+        margin: auto;
+    }
+}
+
+/* Contact Info */
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main h3 {
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+}
+
+.contact ul {
+    list-style: none;
+    text-align: center;
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
+    margin: 5px;
+    flex: 1;
+}
+
+.contact ul li {
+    display: inline;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+}
+/* End Contact Info */
