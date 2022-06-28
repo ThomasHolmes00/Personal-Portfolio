@@ -7,8 +7,9 @@ Reach out to me through the contact section if you have any questions.
 <br></br>
 
 # Screenshot
-![Screenshot of what the webpage looks like]
+![Screenshot of what the webpage looks like](./img/Personal%20Portfolio.png)
 
 <br></br>
 
 # Website URL
+https://github.com/ThomasHolmes00/Personal-Portfolio
